@@ -29,6 +29,9 @@ all commands will be role locked to roles as stated in role.txt
 /removebirthday discordid: str
 
 /resetbirthdays
+
+/getbirthday discordid: str
+
 ```
 *future commands might appear here*
 
