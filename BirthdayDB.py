@@ -72,7 +72,12 @@ class BirthDB:
         for person in self.BirthdayList:
             list.append(str(person))
         return list
-            
+    
+    def GetBirthdayByID(self, DISCORDID):
+        for person in self.BirthdayList:
+            if person.discordID == DISCORDID:
+                return person
+        return None
 
 def main():
     birth = BirthDB()
@@ -85,8 +90,6 @@ def main():
     print(birth.GetBirthdayMessagesForToday())
     print(birth.GetAllBirthdays())
     
-
-
 
 if __name__ == "__main__":
     main()

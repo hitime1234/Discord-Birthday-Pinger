@@ -117,6 +117,11 @@ async def resetBirthdays(interaction: discord.Interaction):
     BirthdayList.resetBirthdays()
     await interaction.response.send_message("Birthdays Reset",ephemeral=True)
 
+@client.tree.command(name='getbirthday',guild=MY_GUILD,description='Gets Birthday by ID')
+@app_commands.checks.has_any_role(*roles)
+async def getBirthday(interaction: discord.Interaction, discordid: str):
+    global BirthdayList
+    await interaction.response.send_message(BirthdayList.GetBirthdayByID(discordid) or "Birthday not found",ephemeral=True)
 
 #events
 @client.event
