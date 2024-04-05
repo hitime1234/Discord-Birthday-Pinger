@@ -12,7 +12,11 @@ channel.txt - channel where you want the daily birthday message
 # requirements 
 
 Requirments are in requirements.txt
+
 but the only requirement is discord.py
+
+https://pypi.org/project/discord.py/ 
+```-which requires python 3.8```
 
 # commands
 
