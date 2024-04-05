@@ -54,7 +54,8 @@ assumptions that you write your birthdays like
 
 dd/mm/yyyy - exact day you was born
 
-people born on 29/02 - birthday is celebrated on 28/02
+people born on 29/02 
+- birthday is celebrated on 28/02 while it's not a leap year
 
 
 
