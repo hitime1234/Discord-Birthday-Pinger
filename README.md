@@ -52,10 +52,10 @@ return f"{self.discordID}, Happy Birthday! {self.customMessage}.  You're {self.G
 
 assumptions that you write your birthdays like 
 
-dd/mm/yyyy - exact day you was born
+- dd/mm/yyyy - exact day you was born
 
-people born on 29/02 
-- birthday is celebrated on 28/02 while it's not a leap year
+- people born on 29/02 
+  -- birthday is celebrated on 28/02 while it's not a leap year
 
 
 
