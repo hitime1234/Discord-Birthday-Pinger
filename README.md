@@ -7,7 +7,7 @@ token.txt - token for bot from discord.com/developers
 
 role.txt - can accept mutiple role ids on new lines
 
-channel.txt
+channel.txt - channel where you want the daily birthday message
 
 # requirements 
 
