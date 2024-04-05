@@ -56,7 +56,7 @@ assumptions that you write your birthdays like
 
 - people born on 29/02
   
-  -- birthday is celebrated on 28/02 while it's not a leap year
+  - - birthday is celebrated on 28/02 while it's not a leap year
 
 
 
